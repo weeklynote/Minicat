@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>mar</servlet-name>
+        <servlet-class>com.mar.server.DispatcherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mar</servlet-name>
+        <url-pattern>/mar</url-pattern>
+    </servlet-mapping>
+</web-app>

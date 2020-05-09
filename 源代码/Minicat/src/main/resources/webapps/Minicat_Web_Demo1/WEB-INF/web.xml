@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+    <servlet>
+        <servlet-name>resume</servlet-name>
+        <servlet-class>com.mar.servlet.ResumeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>resume</servlet-name>
+        <url-pattern>/resume1</url-pattern>
+    </servlet-mapping>
+</web-app>
